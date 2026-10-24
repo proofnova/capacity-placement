@@ -9,14 +9,14 @@ Problem: CPU·메모리·라벨·분산 제약을 지키며 작업을 최소 비
 |Alternative|Existing capability|Conditions/burden|Candidate difference|Unconfirmed|
 |---|---|---|---|---|
 |[Google OR-Tools](https://developers.google.com/optimization)|Scheduling, constraint optimization, flows and routing|Solver installation and problem modeling; broader and more scalable than bounded in-browser search|Bounded exact branch search with explicit optimal/unknown status. A narrow dependency-free JSON/AI tool contract.|Exact parity and real-user benefit not measured.|
-|undefined|undefined|undefined|Bounded exact branch search with explicit optimal/unknown status. A narrow dependency-free JSON/AI tool contract.|Exact parity and real-user benefit not measured.|
+|[Kubernetes scheduling](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/)|Assigning workloads to nodes with selection and affinity rules|An actual cluster and scheduler; this offline bounded solver does not deploy workloads|Bounded exact branch search with explicit optimal/unknown status. A narrow dependency-free JSON/AI tool contract.|Exact parity and real-user benefit not measured.|
 |Manual or composed workflow|A person follows the rules with a spreadsheet, scripts and tool documentation|Repeated setup, arithmetic, checks and trace keeping; actual human time savings have not been measured|Bounded exact branch search with explicit optimal/unknown status. A narrow dependency-free JSON/AI tool contract.|Exact parity and real-user benefit not measured.|
 
 ## Six attempts to disprove the idea
 
 1. Same functionality already exists? Yes, underlying domain operations are established. An existing tool configured for this exact task may remove the need for a separate project.
 2. Existing configuration enough? Plausibly; no exhaustive plugin/configuration execution was completed. Check the nearest tool before expanding this prototype.
-3. Another name? Search terms include Capacity placement solver; capacity placement; CPU·메모리·라벨·분산 제약을 지키며 작업을 최소 비용 노드에 배치한다.; or-tools; kubernetes. Existing algorithm names appear in the method above.
+3. Another name? Search terms include CPU memory affinity placement solver capacity Kubernetes 작업 배치. Existing algorithm names appear in the method above.
 4. Important user difference? Fewer runtime dependencies and a validated tool boundary are concrete; actual adoption and time savings remain unmeasured.
 5. Added complexity? Structured JSON is a real setup cost. A browser example and exact field errors reduce it, but do not erase it.
 6. Retraction evidence? An existing setup with the same access/contract or a failed invariant/performance comparison removes the claimed practical advantage.
